@@ -10,6 +10,8 @@ The language model comes prepared with basic understanding of English thanks to 
 
 Training is done using a 50% dropout rate for a total of 14 epochs using the cosine cyclical annealing method of fitting proposed in [Cyclical Learning Rates for Training Neural Networks](https://arxiv.org/abs/1506.01186) by Leslie Smith. Briefly explaining, cyclical annealing helps the model to examine the entire domain of a loss funtion to precisely know where to optimise. After 14 epochs, the model accuracy comes out to around 48%. For a language model, this accuracy is quite good because it tells that the model is predicting the correct next word almost half the time (which is great for textual data).
 
+![Example](https://github.com/piyushmishra12/Covid-19-Language-Model/blob/master/example.png)
+
 ## Future Scope
 
 The language model can further be used for carrying out document clustering and classification to help the frontline workers quickly find the appropriate research for the specific problem at hand.
